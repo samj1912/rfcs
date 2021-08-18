@@ -97,6 +97,12 @@ N/A.
 # Alternatives
 [alternatives]: #alternatives
 
+## Using ENV vars
+
+We could alternatively use environment variables to specify the app directory and the additional folder paths. We currently use environment variables for setting the app directory. 
+
+## Why is this proposal the best? 
+
 This proposal is useful as it relies of existing OCI image/Docker conventions to add a much needed extension point to the API.
 
 # Prior Art
